@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -40,51 +40,22 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[LangSmith](https://www.langchain.com/langsmith)**  
-
-  End-to-end LLMOps platform tightly integrated with LangChain/LangGraph — tracing, evaluation, prompt hub, datasets, and production monitoring.
-
-
-
-- **[Weights & Biases (Weave)](https://wandb.ai/site/weave)**  
-
-  Experiment tracking, tracing, and evaluation for LLM applications inside the broader W&B MLOps platform.
-
-
-
-- **[Humanloop](https://www.humanloop.com/)**  
-
-  Prompt engineering and evaluation platform focused on collaborative development, versioning, and production feedback.
-
-
-
-- **[Literal AI](https://literalai.com/)**  
-
-  LLM observability and collaboration platform for tracing, evaluation, and improving AI applications.
-
-
-
-- **[Galileo](https://www.galileo.ai/)**  
-
-  LLM evaluation, observability, and quality monitoring platform aimed at production reliability.
-
-
-
-- **[PromptLayer](https://www.promptlayer.com/)**  
-
-  Prompt management, logging, versioning, and basic observability for teams iterating on prompts.
-
-
-
-- **[HoneyHive](https://www.honeyhive.ai/)**  
-
-  LLM observability and evaluation platform with production monitoring and feedback loops.
-
-
-
-- **[Other commercial LLMOps / AI engineering platforms](https://github.com/)**  
-
-  Additional hosted tools covering prompt ops, agent monitoring, or integrated evaluation workflows.
+| Platform | Description / Core Focus | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[LangSmith](https://www.langchain.com/langsmith)** | End-to-end LLMOps platform tightly integrated with LangChain/LangGraph — tracing, evaluation, prompt hub, datasets, and production monitoring. | **$39 / user / month** (Plus plan, includes 10,000 base traces/mo; overage $0.50/1k traces) | **Free forever** (Developer plan): 1 seat, 5,000 base traces/month, 14-day data retention |
+| **[Weights & Biases (Weave)](https://wandb.ai/site/weave)** | Experiment tracking, tracing, and evaluation for LLM applications inside the broader W&B MLOps platform. | **$60 / month** (Pro plan, includes 10 model seats, 100 GB storage, 1.5 GB/mo Weave ingestion) | **Free forever**: Up to 5 model seats, 5 GB storage/month, 1 GB/month Weave data ingestion |
+| **[Galileo](https://www.galileo.ai/)** | LLM evaluation, observability, and quality monitoring platform aimed at production reliability. | **$100 / month** ($100/mo billed annually or $150/mo billed monthly for Pro plan; includes 50,000 traces/mo) | **Free forever**: 5,000 traces/month, unlimited users, unlimited custom evaluations |
+| **[PromptLayer](https://www.promptlayer.com/)** | Prompt management, logging, versioning, and basic observability for teams iterating on prompts. | **$49 / month** (Pro plan, includes unlimited playgrounds/workspaces, 150 MB dataset size, $0.003/extra transaction) | **Free forever** (Hacker plan): 5 users, 2,500 requests/month, 750 agent executions/mo, 250 eval cell executions/mo, 10 MB dataset limit |
+| **[Braintrust](https://www.braintrust.dev/)** | Enterprise-grade evaluation, tracing, prompt playground, and dataset management platform. | **$249 / month** (Pro plan, includes 5 GB data, 50,000 scores, $100/mo model credits, 30-day retention) | **Free forever** (Starter plan): 1 GB processed data/month, 10,000 scores/month, $10/mo model credits, 14-day data retention |
+| **[Portkey](https://portkey.ai/)** | AI Gateway and LLM observability platform with intelligent routing, caching, prompt management, and guardrails. | **$49 / month** (Production plan, includes 100,000 recorded logs; overage $9 per 100k logs) | **Free forever** (Developer plan): 10,000 recorded logs/month, unlimited unlogged routing requests |
+| **[Arize AX](https://arize.com/)** | Enterprise AI observability and evaluation platform with OpenTelemetry tracing, Alyx AI debug assistant, and labeling. | **$50 / month** (AX Pro plan, includes 100,000 trace spans/month, 100 GB storage, unlimited users) | **Free forever** (AX Free plan): 1 user, 25,000 trace spans/month, 1 GB storage, 14-day retention |
+| **[Langfuse Cloud](https://langfuse.com/)** | Managed cloud version of the open-source LLMOps platform — tracing, prompt management, evaluations, and datasets. | **$29 / month** (Core plan, includes 100,000 units/month, 90-day retention; overage $8/100k units) | **Free forever** (Hobby plan): 2 users, 50,000 units/month, 30-day data retention |
+| **[Helicone Cloud](https://www.helicone.ai/)** | LLM observability and gateway platform offering request logging, cost tracking, caching, alerts, and analytics. | **$79 / month** (Pro plan, includes 10,000 requests/month, unlimited seats, 1-month retention) | **Free forever** (Hobby plan): 1 user, 10,000 requests/month, 1 GB storage, 7-day data retention |
+| **[Comet Opik Cloud](https://www.comet.com/site/products/opik/)** | Managed tracing and evaluation platform for LLM applications with automated metric tracking and dataset curation. | **$19 / month** (Pro plan, includes up to 50 team members, 100,000 spans/month, 60-day retention) | **Free forever** (Free plan): Up to 10 team members, 25,000 spans/month, 60-day data retention |
+| **[Agenta Cloud](https://agenta.ai/)** | Developer platform for prompt engineering, collaborative evaluation, and rapid LLM application iteration. | **$49 / month** (Pro plan, includes 3 seats, 10,000 agent runs/month, 1-month retention) | **Free forever** (Hobby plan): 2 team members, 5,000 agent runs/month, 7-day data retention |
+| **[HoneyHive](https://www.honeyhive.ai/)** | LLM observability and evaluation platform with production monitoring, evaluation benchmarks, and feedback loops. | **Custom Enterprise quote** (Tailored SLAs, dedicated account manager, startup discounts for <$5M raised) | **Free forever** (Developer plan): 5 users, 10,000 events/month, 1,000 requests/min, 30-day retention |
+| **[Humanloop](https://www.humanloop.com/)** | Collaborative prompt engineering, evaluation, and feedback platform (Acquired by Anthropic in Aug 2025). | **Custom Enterprise quote** (Platform acquired by Anthropic; grandfathered/enterprise access) | **Free plan / Trial**: 2 team members, 10,000 logs/month, 50 evaluation runs |
+| **[Literal AI](https://literalai.com/)** | Observability and evaluation platform for LLM applications created by the makers of Chainlit (Platform sunset). | **Custom Enterprise quote** (Hosted platform sunset; self-hosting retired Oct 2025) | **Free Basic tier**: 10,000 log units/month, 30-day retention |
 
 
 
